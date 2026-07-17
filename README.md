@@ -1,11 +1,3 @@
-<!--
-**miyanialkesh7/miyanialkesh7** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...<!-- Centered Header & Branding -->
 <div align="center">
   <h1>👋 Hi there, I'm Alkesh Miyani</h1>
   <p><strong>WordPress Developer & Web Innovator | Architectural Excellence & Open Source Contributor</strong></p>
@@ -37,7 +29,7 @@ If you are looking to build, scale, or optimize your digital products, here is h
 I'm actively refining my engineering foundation — moving deeply into enterprise-grade WordPress architecture and modern backend testing workflows.
 
 **Actively learning and building:**
-* OOP PHP, SOLID principles, and design patterns in WordPress context
+* OOP PHP, SOLID principles, and design patterns in the WordPress context
 * Gutenberg block development with React
 * Headless WordPress architectures
 * PHPUnit testing, CI/CD with GitHub Actions
@@ -85,7 +77,7 @@ I am deeply committed to giving back to the community and improving the web plat
 ---
 
 # 📊 GitHub Stats:
-![](https://streak-stats.demolab.com/?user=miyanialkesh7&theme=default&hide_border=false)<br/>
+![GitHub Streak](https://streak-stats.demolab.com/?user=miyanialkesh7&theme=default&hide_border=false)<br/>
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 
@@ -97,7 +89,7 @@ Stay updated with my latest projects, web development insights, and creative wor
 <a href="https://www.facebook.com/techeshta/"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" /></a>
 <a href="https://linkedin.com/in/miyanialkesh7"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://x.com/miyanialkesh7"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
-<a href="mailto:alkesh@miyanialkesh7.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="mailto:miyanialkesh7@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 
 ---
 
@@ -105,9 +97,3 @@ Stay updated with my latest projects, web development insights, and creative wor
 * 🌍 Personal Website: [miyanialkesh7.com](https://miyanialkesh7.com/)
 * 💼 WPFolks Profile: [wpfolks.org/folk/miyanialkesh7](http://wpfolks.org/folk/miyanialkesh7/)
 * 🧩 WordPress Org Profile: [profiles.wordpress.org/alkesh7](https://profiles.wordpress.org/alkesh7/)
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
