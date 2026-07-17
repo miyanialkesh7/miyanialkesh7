@@ -13,6 +13,8 @@ I am a passionate and result-driven Web Developer specializing in building high-
 * 🎨 **Front-End Excellence:** Crafting pixel-perfect, fully responsive layouts that perform seamlessly across all devices.
 * 📈 **Performance & SEO:** Optimizing clean architecture for high-speed delivery and organic search visibility.
 
+🚀 Hire me on [Upwork](https://www.upwork.com/freelancers/miyanialkesh7/) (I'm 🏅 Top Rated WordPress Expert there with strong working experience)
+
 ---
 
 ### 💡 How I Can Help You
