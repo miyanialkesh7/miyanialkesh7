@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="760"
+     height="180"
+     viewBox="0 0 760 180">
+
+  <rect width="760"
+        height="180"
+        rx="16"
+        fill="#0d1117"/>
+
+  <text x="380"
+        y="38"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="20"
+        font-weight="600"
+        fill="#ffffff">
+    Open Source Contributions
+  </text>
+
+  <!-- PRs Opened -->
+  <rect x="30"
+        y="60"
+        width="340"
+        height="90"
+        rx="12"
+        fill="#161b22"
+        stroke="#30363d"/>
+
+  <text x="200"
+        y="91"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="15"
+        fill="#8b949e">
+    Pull Requests Opened
+  </text>
+
+  <text x="200"
+        y="130"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="32"
+        font-weight="700"
+        fill="#ffffff">
+    77
+  </text>
+
+  <!-- PRs Merged -->
+  <rect x="390"
+        y="60"
+        width="340"
+        height="90"
+        rx="12"
+        fill="#161b22"
+        stroke="#30363d"/>
+
+  <text x="560"
+        y="91"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="15"
+        fill="#8b949e">
+    Pull Requests Merged
+  </text>
+
+  <text x="560"
+        y="130"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="32"
+        font-weight="700"
+        fill="#ffffff">
+    23
+  </text>
+
+</svg>
