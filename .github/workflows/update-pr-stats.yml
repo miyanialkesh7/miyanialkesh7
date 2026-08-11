@@ -1,0 +1,146 @@
+name: Update GitHub PR Stats
+
+on:
+  schedule:
+    # Run once every day at 06:00 UTC
+    - cron: "0 6 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-pr-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Get PR statistics
+        id: stats
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          USERNAME="miyanialkesh7"
+
+          TOTAL_PRS=$(curl -s \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/search/issues?q=author:${USERNAME}+type:pr" \
+            | jq '.total_count')
+
+          MERGED_PRS=$(curl -s \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/search/issues?q=author:${USERNAME}+type:pr+is:merged" \
+            | jq '.total_count')
+
+          echo "total_prs=$TOTAL_PRS" >> "$GITHUB_OUTPUT"
+          echo "merged_prs=$MERGED_PRS" >> "$GITHUB_OUTPUT"
+
+          echo "Total PRs: $TOTAL_PRS"
+          echo "Merged PRs: $MERGED_PRS"
+
+      - name: Generate PR statistics SVG
+        env:
+          TOTAL_PRS: ${{ steps.stats.outputs.total_prs }}
+          MERGED_PRS: ${{ steps.stats.outputs.merged_prs }}
+        run: |
+          mkdir -p assets
+
+          cat > assets/pr-stats.svg <<EOF
+          <svg xmlns="http://www.w3.org/2000/svg"
+               width="760"
+               height="180"
+               viewBox="0 0 760 180">
+
+            <rect width="760"
+                  height="180"
+                  rx="16"
+                  fill="#0d1117"/>
+
+            <text x="380"
+                  y="38"
+                  text-anchor="middle"
+                  font-family="Arial, Helvetica, sans-serif"
+                  font-size="20"
+                  font-weight="600"
+                  fill="#ffffff">
+              Open Source Contributions
+            </text>
+
+            <!-- PRs Opened -->
+            <rect x="30"
+                  y="60"
+                  width="340"
+                  height="90"
+                  rx="12"
+                  fill="#161b22"
+                  stroke="#30363d"/>
+
+            <text x="200"
+                  y="91"
+                  text-anchor="middle"
+                  font-family="Arial, Helvetica, sans-serif"
+                  font-size="15"
+                  fill="#8b949e">
+              Pull Requests Opened
+            </text>
+
+            <text x="200"
+                  y="130"
+                  text-anchor="middle"
+                  font-family="Arial, Helvetica, sans-serif"
+                  font-size="32"
+                  font-weight="700"
+                  fill="#ffffff">
+              ${TOTAL_PRS}
+            </text>
+
+            <!-- PRs Merged -->
+            <rect x="390"
+                  y="60"
+                  width="340"
+                  height="90"
+                  rx="12"
+                  fill="#161b22"
+                  stroke="#30363d"/>
+
+            <text x="560"
+                  y="91"
+                  text-anchor="middle"
+                  font-family="Arial, Helvetica, sans-serif"
+                  font-size="15"
+                  fill="#8b949e">
+              Pull Requests Merged
+            </text>
+
+            <text x="560"
+                  y="130"
+                  text-anchor="middle"
+                  font-family="Arial, Helvetica, sans-serif"
+                  font-size="32"
+                  font-weight="700"
+                  fill="#ffffff">
+              ${MERGED_PRS}
+            </text>
+
+          </svg>
+          EOF
+
+      - name: Commit updated statistics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/pr-stats.svg
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: update GitHub PR statistics"
+          git push

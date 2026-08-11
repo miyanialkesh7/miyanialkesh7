@@ -78,10 +78,16 @@ I am deeply committed to giving back to the community and improving the web plat
 
 ---
 
-# 📊 GitHub Stats:
+## 📊 GitHub Stats:
 ![GitHub Streak](https://streak-stats.demolab.com/?user=miyanialkesh7&theme=default&hide_border=false)<br/>
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
+## 🚀 Open Source Contributions
+
+<p align="center">
+  <img src="./assets/pr-stats.svg" alt="GitHub Pull Request Statistics"/>
+</p>
 
 ---
 
