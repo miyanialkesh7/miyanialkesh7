@@ -43,7 +43,7 @@
         font-size="32"
         font-weight="700"
         fill="#ffffff">
-    120
+    128
   </text>
 
   <!-- PRs Merged -->
@@ -71,7 +71,7 @@
         font-size="32"
         font-weight="700"
         fill="#ffffff">
-    38
+    42
   </text>
 
 </svg>
