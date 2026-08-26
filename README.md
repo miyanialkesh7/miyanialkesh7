@@ -28,7 +28,7 @@ If you are looking to build, scale, or optimize your digital products, here is h
 ---
 
 ### 🚀 What I'm doing right now
-I'm actively refining my engineering foundation — moving deeply into enterprise-grade WordPress architecture and modern backend testing workflows.
+I'm actively refining my engineering foundation - moving deeply into enterprise-grade WordPress architecture and modern backend testing workflows.
 
 **Actively learning and building:**
 * OOP PHP, SOLID principles, and design patterns in the WordPress context
@@ -40,12 +40,12 @@ I'm actively refining my engineering foundation — moving deeply into enterpris
 ---
 
 ### 🎯 What I bring from 14 years
-* **Custom WordPress plugin architecture** — from scratch engineering, focusing on custom business logic over heavy page builders
-* **WooCommerce Scaling** — complex custom checkout flows, custom payment hooks, and multi-store architectures
-* **Advanced Custom Fields & Meta Frameworks** — robust, scalable field group setups for clean backend management
-* **REST API & Webhooks Integration** — decoupled custom endpoints and third-party data syncs
-* **Performance-Critical Architectures** — building high-speed systems that handle major production traffic cleanly
-* **Technical Delivery & Leadership** — converting complex enterprise ideas into clear execution blueprints
+* **Custom WordPress plugin architecture** - from scratch engineering, focusing on custom business logic over heavy page builders
+* **WooCommerce Scaling** - complex custom checkout flows, custom payment hooks, and multi-store architectures
+* **Advanced Custom Fields & Meta Frameworks** - robust, scalable field group setups for clean backend management
+* **REST API & Webhooks Integration** - decoupled custom endpoints and third-party data syncs
+* **Performance-Critical Architectures** - building high-speed systems that handle major production traffic cleanly
+* **Technical Delivery & Leadership** - converting complex enterprise ideas into clear execution blueprints
 
 ---
 
@@ -65,6 +65,7 @@ I'm actively refining my engineering foundation — moving deeply into enterpris
 ### 🌍 Open Source
 I am deeply committed to giving back to the community and improving the web platform for everyone. Here are my current contributions and roles within the WordPress ecosystem:
 
+* 🤖 Core AI Contributor
 * 🛠️ Core Contributor
 * ⚙️ Meta Contributor
 * 🧩 Plugin Developer
@@ -75,6 +76,7 @@ I am deeply committed to giving back to the community and improving the web plat
 * 🎤 WordCamp Speaker
 * 🧪 Translation Contributor
 * 📝 Translation Editor
+* 🙋 Support Contributor
 
 ---
 
