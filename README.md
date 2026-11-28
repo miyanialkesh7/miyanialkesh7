@@ -91,6 +91,25 @@ I am deeply committed to giving back to the community and improving the web plat
   <img src="./assets/pr-stats.svg" alt="GitHub Pull Request Statistics"/>
 </p>
 
+<!-- showcase:start -->
+**29 free WordPress.org plugins** (18,360+ combined active installs) and **114 merged pull requests** across **38 projects owned by others**. [See the full showcase →](https://miyanialkesh7.github.io/contributions/)
+
+Most-installed plugins: [Blogmentor – Blog Layouts for Elementor](https://wordpress.org/plugins/blogmentor/), [Card Elements for Elementor](https://wordpress.org/plugins/card-elements-for-elementor/), [Layouts for WPBakery](https://wordpress.org/plugins/layouts-for-wpbakery/), [Online Active Users](https://wordpress.org/plugins/online-active-users/), [Item Lists for Elementor](https://wordpress.org/plugins/item-lists-for-elementor/).
+
+| Project | Merged PRs | Stars |
+|---|---:|---:|
+| [vcns/security-automation-manager](https://github.com/vcns/security-automation-manager) | 10 | ★ 4 |
+| [rejuancse/zepblocks](https://github.com/rejuancse/zepblocks) | 7 | ★ 0 |
+| [jnealey-godaddy/designsetgo](https://github.com/jnealey-godaddy/designsetgo) | 6 | ★ 13 |
+| [ronalfy/updatebee](https://github.com/ronalfy/updatebee) | 6 | ★ 2 |
+| [angelorocha/wpss-ultimate-user-management](https://github.com/angelorocha/wpss-ultimate-user-management) | 5 | ★ 5 |
+| [Dragwyb/translatesense](https://github.com/Dragwyb/translatesense) | 5 | ★ 3 |
+| [hsxk/WP-Branches-For-Post](https://github.com/hsxk/WP-Branches-For-Post) | 5 | ★ 2 |
+| [HandyPlugins/magic-login](https://github.com/HandyPlugins/magic-login) | 4 | ★ 18 |
+
+<sub>Updated 2026-11-28 from public GitHub and WordPress.org data.</sub>
+<!-- showcase:end -->
+
 ---
 
 ### 🌐 Socials:
